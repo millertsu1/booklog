@@ -2,8 +2,8 @@
 
 {% block content %}
 
-<h1 class="text-4xl text-red-600">Create Maintenance Log</h1>
-<form method="post">
+<h1 class="text-4xl text-red-600 text-center">Create Maintenance Log</h1>
+<form method="post" class="text-center">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit" class="bg-slate-400">Save</button>
